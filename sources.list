@@ -1,0 +1,19 @@
+
+首先备份 /etc/apt/sources.list
+
+sudo apt-get vim /etc/apt/sources.list
+
+deb http://mirrors.aliyun.com/ubuntu/ vivid main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ vivid-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ vivid-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ vivid-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ vivid-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ vivid main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ vivid-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ vivid-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ vivid-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ vivid-backports main restricted universe multiverse
+
+sudo apt-get update
+
+sudo apt-get upgrade
