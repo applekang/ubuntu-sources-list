@@ -52,6 +52,10 @@ class ComposerStaticInitba92d3027e90538bf5512edb24f15b9a
         array (
             'Monolog\\' => 8,
         ),
+        'L' => 
+        array (
+            'Liuggio\\ExcelBundle\\' => 20,
+        ),
         'I' => 
         array (
             'Incenteev\\ParameterHandler\\' => 27,
@@ -155,6 +159,10 @@ class ComposerStaticInitba92d3027e90538bf5512edb24f15b9a
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
         ),
+        'Liuggio\\ExcelBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/liuggio/ExcelBundle',
+        ),
         'Incenteev\\ParameterHandler\\' => 
         array (
             0 => __DIR__ . '/..' . '/incenteev/composer-parameter-handler',
@@ -202,6 +210,13 @@ class ComposerStaticInitba92d3027e90538bf5512edb24f15b9a
             'SensioLabs\\Security' => 
             array (
                 0 => __DIR__ . '/..' . '/sensiolabs/security-checker',
+            ),
+        ),
+        'P' => 
+        array (
+            'PHPExcel' => 
+            array (
+                0 => __DIR__ . '/..' . '/phpoffice/phpexcel/Classes',
             ),
         ),
         'D' => 
